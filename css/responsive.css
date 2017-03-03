@@ -1,15 +1,28 @@
 /* lg */ 
 @media (min-width: 1200px) {
-
+	.navbar-brand {
+                position: relative;
+                left: 0px;
+                top: -20px;
+        }
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.navbar-brand {
+                position: relative;
+                left: 0px;
+                top: -20px;
+        }
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand {
+  		position: relative;
+  		left: 0px;
+  		top: -20px;
+	}
  	.navbar-right li a {
 		font-size: 12px;
 		padding-right: 10px;
@@ -34,6 +47,16 @@
 
 /* xs */
 @media (max-width: 767px) {
+	.navbar-toggle {
+		position: relative;
+		top: 35px;
+		right: 20px;
+	}
+	.navbar-brand {
+                position: relative;
+		top: -5px;
+		left: 5px;
+        }
 	body {
 		font-size: 14px;
 	}
@@ -217,7 +240,16 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
-  
+	.navbar-toggle {
+                position: relative;
+                top: 35px;
+                right: 20px;
+        }
+	.navbar-brand {
+                position: relative;
+                left: 5px;
+                top: -5px;
+        }
 	.team-members .col-sm-3, 
 	.pricing-table .col-sm-3, 
 	#portfolio .col-sm-3, 
@@ -227,3 +259,20 @@
 	}
 }
 
+@media (max-width: 250px) {
+	.navbar-brand {
+		position: relative;
+		left: 5px;
+		top: -5px;
+	}
+	.navbar-toggle {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 150px) {
+	.navbar-header {
+		height: 85px;
+	}
+}

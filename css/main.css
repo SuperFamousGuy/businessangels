@@ -72,6 +72,10 @@ h3 {
   background-color: #017fb5;
 }
 
+.navbar-header {
+  height: 120px;
+}
+
 .navbar-nav li a:hover, 
 .navbar-nav li a:focus {
   outline:none;
@@ -274,7 +278,7 @@ section {
 }
 
 .navbar-brand h1 {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 /*************************
