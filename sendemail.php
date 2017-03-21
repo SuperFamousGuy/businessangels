@@ -13,6 +13,6 @@ $headers[] = "Reply-To: <{$from}>";
 $headers[] = "Subject: {$subject}";
 $headers[] = "X-Mailer: PHP/".phpversion();
 
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $message, implode("\r\n", $headers));
 
 die;
